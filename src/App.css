@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,700&display=swap');
+
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  font-family: 'Inter';
+  color: rgb(53, 52, 52);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  box-shadow: 2px 2px 20px 3px rgba(0.1, 0.1, 0.1, 0.5);
+}
+
+.header > h1 {
+  margin-left: 4%;
+}
+
+.header-score {
+  margin-right: 4%;
+}
+
+.main {
+  background-color: rgb(216, 216, 216);
+  height: 83%;
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.footer {
+  box-shadow: -2px -2px 20px 3px rgba(0.1, 0.1, 0.1, 0.5);
+  background-color: rgb(255, 255, 255);
+  color: rgb(53, 52, 52);
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Serif';
+}
+
+.footer > a {
+  margin-bottom: 4px;
+  margin-left: 1%;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 150ms opacity ease-in-out;
+}
+
+.footer > a:hover {
+  opacity: 1;
+}
+
+.card {
+  box-shadow: 2px 2px 20px 3px rgba(0.1, 0.1, 0.1, 0.5);
+
+  background-color: white;
+  width: 15%;
+  height: 50%;
+  object-fit: scale-down;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+  font-family: Inter;
+  cursor: pointer;
+  color: rgb(53, 52, 52);
+  transition: 300ms background-color ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+.card > img {
+  width: 100px;
+}
