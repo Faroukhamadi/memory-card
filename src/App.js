@@ -23,50 +23,62 @@ const App = () => {
     {
       name: 'Eatalot',
       source: eatalot,
+      clicked: false,
     },
     {
       name: 'Adiphoto',
       source: adiphoto,
+      clicked: false,
     },
     {
       name: 'Giaoccino',
       source: giaoccino,
+      clicked: false,
     },
     {
       name: 'Glowina',
       source: glowina,
+      clicked: false,
     },
     {
       name: 'Golanger',
       source: golanger,
+      clicked: false,
     },
     {
       name: 'Mclizee',
       source: Mclizee,
+      clicked: false,
     },
     {
       name: 'Nikeael',
       source: nikeael,
+      clicked: false,
     },
     {
       name: 'Nikeael',
       source: nikeael,
+      clicked: false,
     },
     {
       name: 'Patootie',
       source: patootie,
+      clicked: false,
     },
     {
       name: 'Rabbitee',
       source: rabbitee,
+      clicked: false,
     },
     {
       name: 'Sushiami',
       source: sushiami,
+      clicked: false,
     },
     {
       name: 'Techie',
       source: techie,
+      clicked: false,
     },
   ]);
 
@@ -80,6 +92,8 @@ const App = () => {
         setCards={setCards}
         score={score}
         setScore={setScore}
+        bestScore={bestScore}
+        setBestScore={setBestScore}
       />
       <Footer />
     </div>
